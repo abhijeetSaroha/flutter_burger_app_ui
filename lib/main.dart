@@ -11,7 +11,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -26,7 +25,6 @@ class MyApp extends StatelessWidget {
         floatingActionButtonTheme: const FloatingActionButtonThemeData(
           backgroundColor: Colors.orange,
         ),
-        // buttonBarTheme: const ButtonBarThemeData(),
       ),
       home: const Hamburger(),
       routes: {BurgerPage.tag: (_) => BurgerPage()},

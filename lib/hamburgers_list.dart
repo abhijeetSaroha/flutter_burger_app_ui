@@ -16,7 +16,7 @@ class _HamburgersListState extends State<HamburgersList> {
   Widget build(BuildContext context) {
     int items = 10;
     Widget baconImage = Container(
-      height: 160,
+      height: 120,
       child: Image.asset("images/Bacon_burger.jpeg"),
     );
 
@@ -100,7 +100,7 @@ class _HamburgersListState extends State<HamburgersList> {
                     ),
                   ),
                   Positioned(
-                    top: reverse ? 75 : 50,
+                    top: reverse ? 75 : 70,
                     right: reverse ? 50 : 45,
                     child: GestureDetector(
                       onTap: () {
